@@ -1,0 +1,47 @@
+
+.icon-bar {
+	position: fixed;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	z-index: 10;
+	border-radius: 20%;
+}
+
+a {
+	
+	text-decoration: none;
+	width: 210px;
+	background: #3b5999;
+	color: #fff;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 5px;
+	padding-left: 20px;
+	font-size: 20px;
+	transform: translateX(-170px);
+	-webkit-transform: translateX(-170px);
+	-ms-transform: translateX(-170px);
+	transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+
+.ukLang {
+	background: #333;
+}
+.trLang {
+	background: #333;
+}
+
+
+.ukLang:hover{
+	background: #fff;
+}
+.trLang:hover{
+	background: #fff;
+}
+
+
